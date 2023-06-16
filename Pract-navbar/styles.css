@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+ 
+
+
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(18, 144, 194);
+    padding: 1rem;
+   
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    overflow: scroll;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
